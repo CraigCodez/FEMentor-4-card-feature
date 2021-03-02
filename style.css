@@ -1,0 +1,180 @@
+/*---CSS file from web
+
+# Front-end Style Guide
+## Layout
+The designs were created to the following widths:
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+### Primary
+- Red: hsl(0, 78%, 62%)
+- Cyan: hsl(180, 62%, 55%)
+- Orange: hsl(34, 97%, 64%)
+- Blue: hsl(212, 86%, 64%)
+
+### Neutral
+- Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%)
+
+## Typography
+
+### Body Copy- Font size: 15px
+
+### Fonts
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 200, 400, 600
+
+---*/
+
+/*--------Standard values--------*/
+
+html, body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 98%);
+    font-weight: 200;
+    padding: 0;
+    margin: 0;
+    
+}
+
+h1 {
+    font-weight: 400;
+    margin: 0 0 0 0;
+    font-size: 200%;
+}
+
+h2 {
+    font-weight: 600;
+    margin: 0 0 0 0;
+    font-size: 210%;
+}
+
+h3 {
+    font-size: 100%;
+}
+
+.all-text p {
+    font-size: 90%;
+}
+
+
+/* --- Initial text box --- */
+
+.all-text {
+
+    padding: 20px 5px;
+    font-size: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+    
+}
+
+main {
+    margin: 20px;
+    padding: 0;
+    position: relative;
+}
+
+
+/* --- Boxes --- */
+
+.box {
+
+    width: 310px;
+    height: 200px;
+    background-color: white;
+    margin: 0;
+    box-shadow: 0 5px 5px hsl(229, 6%, 66%);
+    border-radius: 5px;
+}
+
+.supervisor {
+
+    border-top: 5px solid hsl(180, 62%, 55%);
+    position: absolute;
+    left: 17%;
+    right: 80%;
+    top: 20%;
+    
+}
+
+.team {
+
+    border-top: 5px solid hsl(0, 78%, 62%);
+    margin: 5px auto 20px auto;
+}
+
+.karma {
+
+    border-top: 5px solid hsl(34, 97%, 64%);
+    margin: 5px auto 20px auto;
+}
+
+.calculator {
+
+    border-top: 5px solid hsl(212, 86%, 64%);
+    position: absolute;
+    top: 20%;
+    right: 17%;
+    
+}
+
+
+
+/*----inside box -----*/
+
+.box-text {
+    
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+    
+}
+
+.box-text p {
+    font-size: 66%;
+    line-height: 20px;
+    
+}
+
+.box-text img {
+    
+    position: absolute;
+    left: 180px;
+    top: 90px;
+    height: 50px;
+    width: auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

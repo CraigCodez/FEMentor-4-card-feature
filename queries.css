@@ -1,0 +1,65 @@
+/* Desktop to tablet: ---------------------------------------------------------------------------------------From 1000px to 1480px */
+
+
+@media only screen and (max-width: 1480px) {
+
+    
+    /* --- ALL --- */
+
+    html, body {
+        position: static;
+
+    }
+
+
+    /* --- Boxes --- */
+    
+
+    
+    .supervisor {
+
+        position: static;
+        border-top: 5px solid hsl(180, 62%, 55%);
+        margin: 5px auto 20px auto;
+    }
+
+    .calculator {
+
+        position: static;
+        border-top: 5px solid hsl(212, 86%, 64%);
+        margin: 5px auto 20px auto;
+    }
+
+
+
+    
+
+    }
+
+    /* Small Phones: ------------------------------------------------------------------------------------------From 1 to 370px */
+
+    @media only screen and (max-width: 480px) {
+
+
+
+    /* --- header ---*/
+
+    
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.55rem;
+    }
+
+    .all-text p {
+        font-size: 1rem;
+        padding: 0;
+        margin-left: 2ch;
+    }
+
+
+    
+    }
